@@ -1,0 +1,7 @@
+.DS_Store
+.pre-commit-config.yaml
+setup.cfg
+data/datasets/dialogue/dialogue.ref
+data/datasets/dialogue/dialogue.src
+data/datasets/dialogue/train.tsv
+.idea/
