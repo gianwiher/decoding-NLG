@@ -56,6 +56,8 @@ The finetuning script is located at `src/run_clm.py`. One can specify the model 
 
 The trained model instance can then be loaded into Hugging Face by passing the path to the saved model instance to the `from_pretrained` method.
 
+The hyperparamters used for fine-tuning can be found in `hyperparamets.md`. Note that the same hyperparamaters are used for both Story Generation and Unconditional Language Generation tasks. 
+
 ### Unconditional Language Generation
 #### Preprocessing
 The preprocessing script can be found in `src/preproc_wiki.py`. Download the raw version of [WikiText 103](https://blog.einstein.ai/the-wikitext-long-term-dependency-language-modeling-dataset/#download) Dataset and unzip into  the `data/datasets` folder. Then run `preproc_wiki.py`.
